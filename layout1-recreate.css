@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.maindiv {
+    margin: 0 auto 30px;
+    align-items: center;
+    width: 950px;
+    height: 900px;
+    background-color: aqua;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 9%;
+    background-color: orangered;
+}
+
+header > h1 {
+    margin: 18px;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    height: 7%;
+    background-color: orange;
+}
+
+nav > h2 {
+    margin: 16px;
+}
+
+.sectiondiv {
+    position: absolute;
+}
+
+.section1 {
+    display: inline-block;
+    width: 60%;
+    height: 37%;
+    background-color: rgb(98, 187, 98);
+}
+
+.section1 > h2 {
+    margin: 8px;
+}
+
+.section1 > div {
+    margin: 14px auto 14px auto;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(72, 148, 186);
+}
+
+.section1 > div > p {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.section2 {
+    display: inline-block;
+    width: 60%;
+    height: 37%;
+    background-color: rgb(98, 187, 98);
+}
+
+.section2 > h2 {
+    margin: 8px;
+}
+
+.section2 > div {
+    margin: 14px auto 14px auto;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(72, 148, 186);
+}
+
+.section2 > div > p {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+aside {
+    width: 37%;
+    height: 73.7%;
+    padding: 16px;
+    float: right;
+    background-color: yellowgreen;
+}
+
+.footer {
+    color: white;
+    position: relative;
+    top: 73.7%;
+    padding: 8px;
+    height: 93px;
+    width: 950px;
+    background-color: darkblue;
+}
+

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maindiv {
+    margin: 0 auto 30px auto;
+    width: 900px;
+    height: 900px;
+    background-color: aliceblue;
+}
+
+.headernav {
+    position: absolute;
+    width: 900px;
+    height: 70px;
+}
+
+header {
+    width: 60%;
+    height: 70px;
+    background-color: orangered;
+}
+
+header > h1 {
+    padding: 14px;
+}
+
+nav {
+    width: 60%;
+    height: 70px;
+    background-color: orange;
+}
+
+nav > h2 {
+    padding: 18px;
+}
+
+aside {
+    padding: 16px;
+    width: 40%;
+    height: 140px;
+    background-color: yellowgreen;
+    float: right;
+}
+
+.footer {
+    color: white;
+    padding: 14px;
+    position: relative;
+    top: 140px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(10, 10, 93);
+}
+
+.section1 {
+    position: relative;
+    top: 140px;
+    padding: 16px;
+    width: 100%;
+    height: 345px;
+    background-color: rgb(99, 159, 109);
+}
+
+.section1 > div {
+    position: relative;
+    padding: 24px 8px;
+    left: 18px;
+    margin: 18px;
+    width: 800px;
+    height: 70px;
+    background-color: rgb(88, 142, 199);
+}
+
+.section2 {
+    position: relative;
+    top: 140px;
+    padding: 16px;
+    width: 100%;
+    height: 345px;
+    background-color: rgb(99, 159, 109);
+}
+
+.section2 > div {
+    position: relative;
+    padding: 24px 8px;
+    left: 18px;
+    margin: 18px;
+    width: 800px;
+    height: 70px;
+    background-color: rgb(88, 142, 199);
+}
+
